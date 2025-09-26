@@ -1,9 +1,22 @@
 ---
-permalink: /CV/
+layout: single
 title: "CV"
-#For your CV, take the following section "./d/_____COPY THIS STUFF_____/" and replace that section in the URL below.
+permalink: /cv/
+classes: wide
+sidebar: false
+toc: false
 ---
 
-<iframe src="../assets/pdf/junhochoi_cv.pdf" width="100%" height="800px" style="border: none;"></iframe>
+<p>
+  <a class="btn btn--primary" href="../assets/pdf/junhochoi_cv.pdf" download>
+    Download CV (PDF)
+  </a>
+</p>
 
-[Download CV (PDF)](../assets/pdf/junhochoi_cv.pdf)
+<div class="pdf-frame">
+  <iframe
+    src="../assets/pdf/junhochoi_cv.pdf#zoom=page-width"
+    title="Junho Choi CV"
+    loading="lazy"
+  ></iframe>
+</div>

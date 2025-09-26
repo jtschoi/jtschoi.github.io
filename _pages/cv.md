@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "CV"
-permalink: /cv/
+permalink: /CV/
 classes: wide
 sidebar: false
 toc: false

@@ -1,6 +1,5 @@
 main:
   - title: "Research"
-<<<<<<< HEAD
     url: /Research/
   - title: "Teaching"
     url: /Teaching/
@@ -8,21 +7,3 @@ main:
     url: /CV/
   - title: "Fun Stuff"
     url: /Fun-Stuff/
-=======
-    url: /research/
-
-  - title: "CV"
-    url: /cv/
-
-  - title: "Talks"
-    url: /talks/    
-
-  - title: "Teaching"
-    url: /teaching/    
-    
-  - title: "Portfolio"
-    url: /portfolio/
-        
-  - title: "Blog Posts"
-    url: /year-archive/
->>>>>>> e2d61d1ffe47829675ea66ff23571d4147fef7b3

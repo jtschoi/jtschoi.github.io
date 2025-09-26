@@ -1,6 +1,6 @@
 ---
-permalink: /Fun-Stuff/
-title: "Fun Stuff"
+permalink: /Misc/
+title: "Misc"
 ---
 
 Add some personality here! Some ideas:

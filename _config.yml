@@ -57,7 +57,7 @@ plugins:
 
 author:
   name   : "Junho Choi" #CHANGE THIS
-  avatar : "/assets/images/raang-ee.jpeg" #CHANGE THIS
+  avatar : "/assets/images/raang-ee.jpg" #CHANGE THIS
   bio    : "PhD Candidate at Columbia University" #CHANGE THIS
   email  : "jc5341@columbia.edu" #CHANGE THIS
   links:

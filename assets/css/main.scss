@@ -1,0 +1,25 @@
+---
+# Jekyll front matter (required so it gets processed)
+---
+
+@import "minimal-mistakes";   // loads the default theme
+
+/* Your custom overrides below */
+.pdf-frame {
+  width: 100%;
+  height: min(90vh, 1200px);
+  border: 1px solid rgba(0,0,0,0.08);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.pdf-frame iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .pdf-frame { height: 75vh; }
+}

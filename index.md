@@ -6,7 +6,7 @@ layout: single
 author_profile: true
 ---
 
-Welcome! I am a fourth-year Ph.D. student in the Sustainable Development program at Columbia University’s School of International and Public Affairs.
+Welcome! I am a fourth-year Ph.D. student in the Sustainable Development program at Columbia University's School of International and Public Affairs.
 
 My research centers on environmental and climate economics, with special attention to technology and innovation.
 

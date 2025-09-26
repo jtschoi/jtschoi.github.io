@@ -1,30 +1,53 @@
 ---
 permalink: /Research/
 title: "Research"
-# Code for inserting images <img src="/assets/images/AirFig.jpg" alt="My photo" width="400" height="400"> (can't figure out why it isn't working
+classes: wide
 ---
 
+
+### Works in Progress
+---
+**Hidden Environmental and Climate Footprints of Frontier AI: Evidence from Google’s Gemini Training**  
+[PDF](/assets/pdf/choi_frontier_ai.pdf)  
+Presented at: CU Environmental and Resource Economics Seminar (Sep 2025), The 11th World Sustainability Forum (Oct 2025)
+
+**Bitcoin Bites: Ambient pollution and labor market outcomes in Pennsylvania**  
+(with Douglas Almond and Anna Papp)  
+[PDF](/assets/pdf/choi_bitcoin_bites.pdf)  
+Presented at: Columbia SDEV Colloquium (Oct 2024), Chinese University of Hong Kong (Jan 2025),  
+Virtual Sustainable Development Seminar (Mar 2025), NBER NY, University of Chicago,  
+The Workshop in Environmental Economics and Data Science (TWEEDS; Apr 2025), University of Tokyo,  
+and Seoul National University (Jun 2025)
+
+**Weather innovations and weathered roads**  
+[PDF](/assets/pdf/choi_weather_roads.pdf)  
+
+---
 
 ### Working Papers
 ---
-If only I had something to put here ;-;
+**Could AI Leapfrog the Web? Evidence from Teachers in Sierra Leone**  
+Daniel Björkegren, Jun Ho Choi, Divya Budihal, Dominic Sobhani, Oliver Garrod, and Paul Atherton (2025)  
+[PDF](/assets/pdf/choi_ai_leapfrog.pdf)  
+Presented at: NBER Summer Institute 2025 (Digital Economics and Artificial Intelligence)  
+
+---
 
 ### Publications
 ---
-[Air Climate Equity in US Climate Policy](https://www.pnas.org/doi/10.1073/pnas.2217124120) - PNAS (2023)
-<p style="font-size:12px;">(with Pascal Polonik, Kate Ricke, and Jen Burney)</p>
-![My photo]({{ "/assets/images/AirFig.jpg" | relative_url }}){: width="300"}
-<details>
-  <summary>Abstract</summary>
-  <p style="font-size:12px;"> The United States government has indicated a desire to advance environmental justice through climate policy. As fossil fuel combustion produces both conventional pollutants and greenhouse gas (GHG) emissions, climate mitigation strategies may provide an opportunity to address historical inequities in air pollution exposure. To test the impact of climate policy implementation choices on air quality equity, we develop a broad range of GHG reduction scenarios that are each consistent with the US Paris Accord target and model the resulting air pollution changes. Using idealized decision criteria, we show that least cost and income-based emission reductions can exacerbate air pollution disparities for communities of color. With a suite of randomized experiments that facilitates exploration of a wider climate policy decision space, we show that disparities largely persist despite declines in average pollution exposure, but that reducing transportation emissions has the most potential to reduce racial inequities. </p>
-</details>
+**Are LLMs useful in the poorest schools? TheTeacher.AI in Sierra Leone**  
+Jun Ho Choi, Oliver Garrod, Paul Atherton, Andrew Joyce-Gibbons, Miriam Mason-Sesay, Daniel Björkegren (2023)  
+*NeurIPS Workshop on Generative AI for Education*  
+[Link](https://gaied.org/neurips2023/files/34/34_paper.pdf)  
 
-### Work In Progress
----
+**DSCIM-Coastal v1.1: an open-source modeling platform for global impacts of sea level rise**  
+Nicholas Depsky, Ian Bolliger, Daniel Allen, Jun Ho Choi, Michael Delgado, Michael Greenstone, Trevor Houser, Solomon Hsiang, Robert E. Kopp (2023)  
+*Geoscientific Model Development 16: 4331–4366*  
+[Link](https://doi.org/10.5194/gmd-16-4331-2023)  
 
-Fishery-Induced Evolution in U.S.-Managed Stocks
+**Female representation among notable people born in 1700–2000**  
+Pablo A. Peña and Jun Ho Choi (2021)  
+*Economics Letters 206: 1–4*  
+[Link](https://doi.org/10.1016/j.econlet.2021.109968)  
 
-Which 30? Operationalizing the 30x30 Initiative
 
-Breeding Fish Breeds Risk: Aquaculture and Dengue in Bangladesh
-<p style="font-size:12px;">(with Seung Min Kim)</p>

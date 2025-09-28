@@ -5,6 +5,16 @@
 @import "minimal-mistakes";   // loads the default theme
 
 /* custom overrides below */
+.site-title {
+  font-size: 1.4rem;   /* bigger site title */
+  font-weight: 700;  /* bold */
+}
+
+.greedy-nav a {
+  font-size: 1.4rem;   /* default is ~1rem */
+  font-weight: 600;    /* semi-bold for emphasis */
+}
+
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 17px;  /* adjust to taste */

@@ -8,21 +8,22 @@ classes: wide
 ### Works in Progress
 
 **Hidden Environmental Footprints of AI Training: Evidence from Google's Gemini 1.0**  
-[Slides presented at CU ERE Workshop](/assets/pdf/cuere2025_choi_pres.pdf)  
-Presented at: CU Environmental and Resource Economics Seminar (Sep 2025), The 11th World Sustainability Forum (Oct 2025)
-
 <details>
   <summary><em>Abstract</em></summary>
   <p style="font-size:13px;">	
       Abstract to be added here (testing)
   </p>
 </details>
+[Slides presented at CU ERE Workshop](/assets/pdf/cuere2025_choi_pres.pdf)  
+Presented at: CU Environmental and Resource Economics Seminar (Sep 2025), The 11th World Sustainability Forum (Oct 2025)
+
 
 **Bitcoin Bites: Ambient pollution and labor market outcomes in Pennsylvania**  
 (with Douglas Almond and Anna Papp)  
 [Slides presented at Seoul National University](/assets/pdf/snu2025_btcbites.pdf)  
 Presented at: Columbia SDEV Colloquium (Oct 2024), Chinese University of Hong Kong (Jan 2025), Virtual Sustainable Development Seminar (Mar 2025), NBER NY, University of Chicago,  
 The Workshop in Environmental Economics and Data Science (TWEEDS; Apr 2025), University of Tokyo, and Seoul National University (Jun 2025)
+
 
 **Weather innovations and weathered roads**
 

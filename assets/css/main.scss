@@ -4,7 +4,18 @@
 
 @import "minimal-mistakes";   // loads the default theme
 
-/* Your custom overrides below */
+/* custom overrides below */
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 17px;  /* adjust to taste */
+  line-height: 1.6; /* better readability */
+}
+
+h1, h2, h3, h4 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 600;
+}
+
 .pdf-frame {
   width: 100%;
   height: min(90vh, 1200px);

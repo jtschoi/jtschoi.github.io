@@ -13,3 +13,5 @@ My research centers on environmental and climate economics, with special attenti
 Before coming to Columbia, I worked as a research professional at the Climate Impact Lab. I graduated with honors in Economics from Princeton University and earned an M.A. in Computational Social Science from the University of Chicago.
 
 Outside of research, I enjoy playing the guitar, going to live gigs, and tending to my basil plants.
+
+Please contact me at jc5341@columbia.edu for inquiries and potential collaborations!

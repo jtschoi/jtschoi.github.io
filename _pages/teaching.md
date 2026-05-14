@@ -3,17 +3,19 @@ permalink: /Teaching/
 title: "Teaching"
 ---
 
-### Columbia
+### Columbia University
 ---
-* Teaching Assistant (Master's)
-   * Fundamentals of Environmental Economics [Fall 2025]
-* Teaching Assistant (Undergraduate)
-   * Globalization and its Risks [Spring 2025]
-   * Science for Sustainable Development [Fall 2024]
+* **The Economics of Energy** (Master's) [Spring 2026]
+  * *Instructor: Professor Robert Metcalfe*
 
-### UC San Diego
----
-* Teaching Assistant (Master's)
-   * Policy Analysis and Decision Theory [Spring 2024]
-   * Fundamentals of Energy Systems and Innovation [Winter 2023]
-   * GIS and Spatial Data Analysis [Fall 2023]
+* **Principles of Economics** (Undergraduate) [Fall 2025]
+  * *Instructor: Professor Waseem Noor*
+
+* **Climate Finance** (Undergraduate) [Spring 2025]
+  * *Instructors: Professors José Scheinkman and Harrison Hong*
+
+* **Applying Machine Learning** (Master's) [Spring 2024]
+  * *Instructor: Professor Daniel Björkegren*
+
+* **Computing in Context** (Undergraduate) [Fall 2023]
+  * *Instructor: Professor Adam Cannon*

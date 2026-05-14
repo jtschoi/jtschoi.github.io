@@ -1,17 +1,13 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: single
 author_profile: true
 ---
 
-Welcome! I am a fourth-year Ph.D. student in the Sustainable Development program at Columbia University's School of International and Public Affairs.
+I am a fourth-year Ph.D. student in the Sustainable Development program at Columbia University's School of International and Public Affairs. My research is in environmental and climate economics, with a focus on technology, innovation, and disaster resilience.
 
-My research centers on environmental and climate economics, with special attention to technology and innovation.
-
-Before coming to Columbia, I worked as a research professional at the Climate Impact Lab. I graduated with honors in Economics from Princeton University and earned an M.A. in Computational Social Science from the University of Chicago.
+Before Columbia, I was a research professional at the Climate Impact Lab. I hold an A.B. in Economics from Princeton University and an M.A. in Computational Social Science from the University of Chicago.
 
 Outside of research, I enjoy playing the guitar, going to live gigs, and tending to my basil plants.
 
-Please contact me at jc5341@columbia.edu for inquiries and potential collaborations!
+<br>
+[Curriculum Vitae](/assets/pdf/junhochoi_cv.pdf){: .btn .btn--primary}

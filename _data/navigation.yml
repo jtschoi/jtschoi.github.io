@@ -1,9 +1,3 @@
 main:
   - title: "Research"
     url: /Research/
-  - title: "Teaching"
-    url: /Teaching/
-  - title: "CV"
-    url: /CV/
-  - title: "Misc"
-    url: /Misc/

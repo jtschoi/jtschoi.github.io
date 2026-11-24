@@ -1,0 +1,257 @@
+\documentclass[11pt, letterpaper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[left=0.75in,top=0.7in,right=0.75in,bottom=0.8in]{geometry}
+\usepackage{lmodern}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{hyperref}
+
+% --- LINKS ---
+\definecolor{linkblue}{RGB}{0,51,153}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=linkblue,
+    urlcolor=linkblue,
+    pdftitle={CV - Jun Ho Choi},
+    pdfauthor={Jun Ho Choi},
+}
+
+% --- PAGE STYLE: name and page number in the footer ---
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\cfoot{\small Jun Ho Choi \textperiodcentered\ Page \thepage\ of \pageref*{LastPage}}
+
+\setlength{\parindent}{0pt}
+\interlinepenalty=10000 % keep each entry on one page
+
+% --- CUSTOM COMMANDS ---
+
+% Section heading
+% Usage: \cvsection{Title}
+\newcommand{\cvsection}[1]{%
+    \par\vspace{9pt}%
+    {\Large\scshape #1}\ \hrulefill\par\nopagebreak
+    \vspace{3pt}%
+}
+
+% Education entry
+% Usage: \educationentry{Institution}{Location}{Degree}{Date}{Further lines}
+\newcommand{\educationentry}[5]{%
+    \textbf{#1} \hfill #2\\
+    #3 \hfill #4\\
+    #5\par\vspace{4pt}%
+}
+
+% Research experience entry
+% Usage: \workentry{Institution}{Location}{Role}{Dates}{Supervisor(s)}{Description}
+\newcommand{\workentry}[6]{%
+    \textbf{#1} \hfill #2\\
+    \textit{#3} \hfill #4\\
+    Supervisor(s): #5\\
+    #6\par\vspace{4pt}%
+}
+
+% Paper entry. Leave an argument empty ({}) to omit it.
+% Usage: \paper{Title}{Coauthors}{Year}{Second line: journal or note}{Link}
+% Put journal names in \textit{} inside the fourth argument.
+\newcommand{\paper}[5]{%
+    ``#1'' (#3)\ifx&#2&\else\ (with #2)\fi.%
+    \ifx&#4&\else\\ #4\fi%
+    \ifx&#5&\else\ \href{#5}{[Link]}\fi%
+    \par\vspace{4pt}%
+}
+
+% List with right-aligned dates (teaching, awards)
+\newenvironment{datedlist}
+    {\begin{itemize}[noitemsep,topsep=0pt,partopsep=0pt,leftmargin=0pt,label={}]}
+    {\end{itemize}\vspace{4pt}}
+
+\begin{document}
+
+% --- HEADER ---
+\begin{center}
+    {\huge\scshape Jun Ho Choi}\\[5pt]
+    \small
+    Ph.D. Candidate in Sustainable Development, Columbia University\\
+    \href{mailto:choi.junho@columbia.edu}{choi.junho@columbia.edu} $\circ$ \href{https://jtschoi.github.io/}{jtschoi.github.io}\\[2pt]
+    \textit{Last updated: November 2026}
+\end{center}
+
+
+% --- EDUCATION ---
+\cvsection{Education}
+
+\educationentry{Columbia University}{New York, NY}
+{Ph.D. in Sustainable Development}{Sep 2022 -- Present}
+{M.A. in Sustainable Development \hfill Feb 2026\\
+Advisor: Professor Douglas Almond}
+
+\educationentry{University of Chicago}{Chicago, IL}
+{M.A. in Computational Social Science (Economics Concentration)}{Aug 2020}
+{Thesis Advisor: Professor Pablo Pe\~na\\
+Graduate Student-at-Large Program \hfill Apr 2021 -- Jun 2022}
+
+\educationentry{Princeton University}{Princeton, NJ}
+{A.B. in Economics, \textit{with honors (cum laude)}}{Jun 2018}
+{Certificate in Statistics and Machine Learning\\
+Thesis Advisor: Professor Nobuhiro Kiyotaki}
+
+
+% --- RESEARCH FIELDS ---
+\cvsection{Research Fields}
+
+Environmental and Energy Economics; Climate Economics; Economics of AI and Technology
+
+
+% --- PUBLICATIONS ---
+\cvsection{Publications}
+
+\paper{Could AI Leapfrog the Web? Evidence from Teachers in Sierra Leone}
+{Daniel Björkegren, Divya Budihal, Dominic Sobhani, Oliver Garrod, and Paul Atherton}
+{2026}
+{\textit{PNAS Nexus} 5(11): pgag377}
+{https://doi.org/10.1093/pnasnexus/pgag377}
+
+\paper{DSCIM-Coastal v1.1: an open-source modeling platform for global impacts of sea level rise}
+{Nicholas Depsky, Ian Bolliger, Daniel Allen, Michael Delgado, Michael Greenstone, Trevor Houser, Solomon Hsiang, and Robert E. Kopp}
+{2023}
+{\textit{Geoscientific Model Development} 16: 4331--4366}
+{https://doi.org/10.5194/gmd-16-4331-2023}
+
+\paper{Female representation among notable people born in 1700--2000}
+{Pablo A. Pe\~na}
+{2021}
+{\textit{Economics Letters} 206: 109968}
+{https://doi.org/10.1016/j.econlet.2021.109968}
+
+
+% --- WORKSHOP PAPERS ---
+\cvsection{Workshop Papers}
+
+\paper{Are LLMs useful in the poorest schools? TheTeacher.AI in Sierra Leone}
+{Oliver Garrod, Paul Atherton, Andrew Joyce-Gibbons, Miriam Mason-Sesay, and Daniel Björkegren}
+{2023}
+{\textit{NeurIPS 2023 Workshop on Generative AI for Education}}
+{https://gaied.org/neurips2023/files/34/34_paper.pdf}
+
+
+% --- WORKING PAPERS ---
+\cvsection{Working Papers}
+
+\paper{The Hidden Environmental Footprints of Large-Scale AI Training: Evidence from Google's GLaM, PaLM, and Gemini 1.0 Models}
+{}
+{2026}
+{}
+{https://jtschoi.github.io/assets/pdf/google_datcen_2601.pdf}
+
+\paper{Carbon Spillovers of Vertically Integrated Cryptomining}
+{Douglas Almond and Anna Papp}
+{2026}
+{Draft available upon request}
+{}
+
+
+% --- WORKS IN PROGRESS ---
+\cvsection{Works in Progress}
+
+\paper{Bitcoin Bites: Ambient pollution and labor market outcomes in Pennsylvania}
+{Douglas Almond and Anna Papp}
+{2025}
+{}
+{}
+
+\paper{The Environmental Impacts of Behind-the-Meter Generation at Data Centers}
+{Fanyu Wang}
+{2026}
+{}
+{}
+
+\paper{Weather, Weathering, and Sinkholes}
+{}
+{2026}
+{}
+{}
+
+
+% --- PRESENTATIONS ---
+\cvsection{Presentations}
+
+\begin{itemize}[leftmargin=3.5em,labelwidth=2.5em,labelsep=1em,align=left,noitemsep,topsep=0pt]\raggedright
+    \item[2025] Chinese University of Hong Kong, Virtual Sustainable Development Seminar, NBER New York, University of Chicago, The Workshop in Environmental Economics and Data Science (TWEEDS), University of Tokyo, Seoul National University, NBER Summer Institute (Digital Economics and Artificial Intelligence), Columbia Environmental and Resource Economics Workshop, World Sustainability Forum, Columbia Sustainable Development Colloquium, International Monetary Fund
+    \item[2024] Columbia Sustainable Development Colloquium
+\end{itemize}
+\vspace{4pt}
+
+
+% --- TEACHING ---
+\cvsection{Teaching Experience}
+
+\textit{Teaching Assistant, Columbia University}\par\vspace{2pt}
+\begin{datedlist}
+    \item The Economics of Energy (MA-level; Prof. Robert Metcalfe) \hfill Spring 2026
+    \item Principles of Economics (Prof. Waseem Noor) \hfill Fall 2025
+    \item Climate Finance (Profs. José Scheinkman and Harrison Hong) \hfill Spring 2025
+    \item Applying Machine Learning (MA-level; Prof. Daniel Björkegren) \hfill Spring 2024
+    \item Computing in Context (Prof. Adam Cannon) \hfill Fall 2023
+\end{datedlist}
+
+
+% --- RESEARCH EXPERIENCE ---
+\cvsection{Research Experience}
+
+\workentry{Columbia University, SIPA}{New York, NY}
+{Ph.D. Research Assistant}{May 2025 -- Aug 2025}
+{Professor Jeffrey Shrader}
+{Conducted ML, econometric, and simulation tasks using financial and weather forecast data.}
+
+\workentry{Columbia University, SIPA}{New York, NY}
+{Ph.D. Research Assistant}{Aug 2023 -- Dec 2024}
+{Professor Daniel Björkegren}
+{Conducted LLM-related tasks to assess how generative AI can help teachers in low-income countries.}
+
+\workentry{Climate Impact Lab \& EPIC (University of Chicago)}{Chicago, IL}
+{Research Professional \& Pre-doctoral Fellow}{Sep 2020 -- Jul 2022}
+{Professors Solomon Hsiang and Michael Greenstone, and Dr. Ian Bolliger}
+{Assessed global impacts of 21st-century sea level rise, tropical cyclones, and the social cost of carbon.}
+
+
+% --- AWARDS ---
+\cvsection{Fellowships and Awards}
+
+\begin{datedlist}
+    \item Doctoral Fellowship, Sustainable Development, Columbia University \hfill Sep 2022 -- Present
+    \item Graduate Research Fellowship (funded by SIPA Faculty Research Grant) \hfill Fall 2024
+    \item Pre-Doctoral Fellowship, EPIC (University of Chicago) \hfill Sep 2020 -- Jul 2022
+    \item Merit-based scholarship (maximum), University of Chicago \hfill Sep 2018 -- Jun 2020
+\end{datedlist}
+
+
+% --- SKILLS ---
+\cvsection{Skills and Languages}
+
+\textbf{Programming:} Python, R, Stata, SQL, Git, \LaTeX, ArcGIS, Matlab, Shell scripting\\
+\textbf{Languages:} Korean (native), English (fluent), Standard Chinese (basic)
+
+
+% --- REFERENCES ---
+% TODO: add each reference's title, department, and email.
+\cvsection{References}
+
+\begin{minipage}[t]{0.32\textwidth}
+    Professor Douglas Almond\\
+    Columbia University
+\end{minipage}\hfill
+\begin{minipage}[t]{0.32\textwidth}
+    Professor Robert Metcalfe\\
+    Columbia University
+\end{minipage}\hfill
+\begin{minipage}[t]{0.32\textwidth}
+    Professor Harrison Hong\\
+    Columbia University
+\end{minipage}
+
+\end{document}

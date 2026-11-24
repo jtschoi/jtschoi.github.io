@@ -1,0 +1,10 @@
+# LaTeX build files
+*.aux
+*.log
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.toc
+# The compiled CV is published from assets/pdf/junhochoi_cv.pdf
+*.pdf

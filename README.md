@@ -1,27 +1,28 @@
-# Minimal Mistakes remote theme starter
+# jtschoi.github.io
 
-Click [**Use this template**](https://github.com/mmistakes/mm-github-pages-starter/generate) button above for the quickest method of getting started with the [Minimal Mistakes Jekyll theme](https://github.com/mmistakes/minimal-mistakes).
+Personal academic website of Junho Choi, built with Jekyll and the
+[Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes) remote theme
+and served by GitHub Pages at <https://jtschoi.github.io/>.
 
-Contains basic configuration to get you a site with:
+## Where things live
 
-- Sample posts.
-- Sample top navigation.
-- Sample author sidebar with social links.
-- Sample footer links.
-- Paginated home page.
-- Archive pages for posts grouped by year, category, and tag.
-- Sample about page.
-- Sample 404 page.
-- Site wide search.
+- `index.md`: home page (bio)
+- `_pages/`: Research, Teaching, CV, Misc and 404 pages
+- `_data/navigation.yml`: top navigation menu
+- `_config.yml`: site settings and sidebar (name, avatar, bio, links)
+- `assets/pdf/`: CV, papers, slides and posters
+- `assets/images/`: avatar and photos
+- `assets/css/main.scss`: style overrides
 
-Replace sample content with your own and [configure as necessary](https://mmistakes.github.io/minimal-mistakes/docs/configuration/).
+## Preview locally
 
----
+Use Ruby 3.1 or older (for example via rbenv). The `github-pages` gem pins
+Jekyll 3.9, whose Liquid version fails on Ruby 3.2+ with
+"undefined method `tainted?'". GitHub Pages itself is unaffected.
 
-## Troubleshooting
+```bash
+bundle install
+bundle exec jekyll serve
+```
 
-If you have a question about using Jekyll, start a discussion on the [Jekyll Forum](https://talk.jekyllrb.com/) or [StackOverflow](https://stackoverflow.com/questions/tagged/jekyll). Other resources:
-
-- [Ruby 101](https://jekyllrb.com/docs/ruby-101/)
-- [Setting up a Jekyll site with GitHub Pages](https://jekyllrb.com/docs/github-pages/)
-- [Configuring GitHub Metadata](https://github.com/jekyll/github-metadata/blob/master/docs/configuration.md#configuration) to work properly when developing locally and avoid `No GitHub API authentication could be found. Some fields may be missing or have incorrect data.` warnings.
+Then open <http://localhost:4000>. Restart the server after editing `_config.yml`.
